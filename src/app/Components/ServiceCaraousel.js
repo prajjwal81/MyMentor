@@ -66,9 +66,9 @@ export default function ServicesCarousel() {
                     isCurrent
                       ? "transform translate-x-0 z-10"
                       : isPrev
-                      ? "transform -translate-x-full z-0 h-[80%]"
+                      ? "transform -translate-x-full z-0 h-[80%] w-[80%] opacity-80"
                       : isNext
-                      ? "transform translate-x-full z-0 h-[80%]"
+                      ? "transform translate-x-full z-0 h-[80%] w-[80%] opacity-80"
                       : "hidden"
                   }`}
                 >
